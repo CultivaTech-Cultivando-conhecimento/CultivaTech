@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CultivaTech - Plataforma digital para planejamento, gestão e acompanhamento de hortas e plantações escolares.">
+    <title>CultivaTech | Cultivando conhecimento.</title>
+    
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="navbar-header" id="header">
+        <nav class="navbar container">
+            <a href="#inicio" class="logo">
+                <i data-lucide="sprout" class="logo-icon"></i>
+                <span class="logo-text">Cultiva<span class="logo-accent">Tech</span></span>
+            </a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#inicio" class="nav-link active">Início</a></li>
+                    <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="#problema" class="nav-link">Problema</a></li>
+                    <li class="nav-item"><a href="#solucao" class="nav-link">Solução</a></li>
+                    <li class="nav-item"><a href="#funcionalidades" class="nav-link">Funcionalidades</a></li>
+                    <li class="nav-item"><a href="#publico-alvo" class="nav-link">Público-alvo</a></li>
+                    <li class="nav-item"><a href="#equipe" class="nav-link">Equipe</a></li>
+                    <li class="nav-item"><a href="#tecnologias" class="nav-link">Tecnologias</a></li>
+                </ul>
+
+                <div class="nav-actions-mobile">
+                    <a href="#sobre" class="btn btn-primary btn-nav">Conheça o projeto</a>
+                </div>
+            </div>
+
+            <div class="nav-actions-desktop">
+                <a href="#sobre" class="btn btn-primary btn-nav">Conheça o projeto</a>
+            </div>
+
+            <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu de navegação">
+                <i data-lucide="menu" class="icon-open"></i>
+                <i data-lucide="x" class="icon-close"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section" id="inicio">
+            <div class="hero-bg-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+            </div>
+            
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge">
+                        <i data-lucide="leaf" class="badge-icon"></i>
+                        <span>Plataforma 100% Digital Escola-Verde</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        Cultivando <span class="highlight-text">conhecimento.</span>
+                    </h1>
+
+                    <p class="hero-subtitle">
+                        O CultivaTech é uma plataforma digital desenvolvida para ajudar escolas a planejar, organizar e acompanhar hortas e plantações pedagógicas de forma simples, interativa e altamente sustentável.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#sobre" class="btn btn-primary">
+                            Conheça o projeto
+                            <i data-lucide="arrow-right"></i>
+                        </a>
+                        <a href="#solucao" class="btn btn-secondary">
+                            Como funciona
+                            <i data-lucide="play-circle"></i>
+                        </a>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-icon"><i data-lucide="layout"></i></span>
+                            <span class="stat-text">Organização Simplificada</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-icon"><i data-lucide="book-open"></i></span>
+                            <span class="stat-text">Foco Educacional</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-icon"><i data-lucide="globe"></i></span>
+                            <span class="stat-text">100% Digital</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="hero-card-wrapper">
+                        <div class="mockup-window">
+                            <div class="mockup-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                                <span class="mockup-title">CultivaTech App - Painel do Cultivo Escolar</span>
+                            </div>
+                            <div class="mockup-body">
+                                <div class="mockup-metric-grid">
+                                    <div class="metric-card">
+                                        <div class="metric-header">
+                                            <i data-lucide="calendar"></i>
+                                            <span>Próximo Plantio</span>
+                                        </div>
+                                        <div class="metric-value">Alface Crespa</div>
+                                        <div class="metric-sub">Época ideal: Primavera</div>
+                                    </div>
+                                    <div class="metric-card">
+                                        <div class="metric-header">
+                                            <i data-lucide="droplets"></i>
+                                            <span>Escala de Irrigação</span>
+                                        </div>
+                                        <div class="metric-value">Turma 8º Ano A</div>
+                                        <div class="metric-sub">Turno: Manhã (08:30)</div>
+                                    </div>
+                                </div>
+
+                                <div class="mockup-chart-card">
+                                    <div class="chart-header">
+                                        <span>Desenvolvimento da Horta Escolar</span>
+                                        <span class="status-pill"><i data-lucide="trending-up"></i> Em dia</span>
+                                    </div>
+                                    <div class="chart-bars">
+                                        <div class="bar-group">
+                                            <div class="bar" style="height: 40%"></div>
+                                            <span>Sem 1</span>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar" style="height: 60%"></div>
+                                            <span>Sem 2</span>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar" style="height: 85%"></div>
+                                            <span>Sem 3</span>
+                                        </div>
+                                        <div class="bar-group">
+                                            <div class="bar highlight" style="height: 100%"></div>
+                                            <span>Sem 4</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="floating-badge badge-top">
+                            <i data-lucide="graduation-cap"></i>
+                            <div>
+                                <strong>Aprendizado Prático</strong>
+                                <small>Integração de disciplinas</small>
+                            </div>
+                        </div>
+
+                        <div class="floating-badge badge-bottom">
+                            <i data-lucide="sun"></i>
+                            <div>
+                                <strong>Calendário Agrícola</strong>
+                                <small>Planejamento digital</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sobre-section section-padding" id="sobre">
+            <div class="container">
+                <div class="section-header center">
+                    <span class="section-subtitle">Conheça o CultivaTech</span>
+                    <h2 class="section-title">Sobre o Projeto</h2>
+                    <p class="section-description">
+                        Uma plataforma pensada para conectar a comunidade escolar com o cultivo consciente através da tecnologia.
+                    </p>
+                </div>
+
+                <div class="sobre-grid">
+                    <div class="sobre-content">
+                        <div class="sobre-card">
+                            <div class="sobre-icon">
+                                <i data-lucide="compass"></i>
+                            </div>
+                            <div class="sobre-info">
+                                <h3>Origem do Projeto</h3>
+                                <p>
+                                    O CultivaTech nasceu da necessidade real de tornar a plantação escolar muito mais organizada, eficiente e educativa. Observamos que muitas hortas escolares enfrentavam falta de continuidade por falta de registros claros.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="sobre-card">
+                            <div class="sobre-icon">
+                                <i data-lucide="database"></i>
+                            </div>
+                            <div class="sobre-info">
+                                <h3>Centralização de Dados</h3>
+                                <p>
+                                    Nossa plataforma reúne todas as informações necessárias sobre o manejo do cultivo em um único lugar digital, permitindo fácil acesso a professores, alunos e gestores.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="sobre-card">
+                            <div class="sobre-icon">
+                                <i data-lucide="clipboard-check"></i>
+                            </div>
+                            <div class="sobre-info">
+                                <h3>Gestão e Orientação</h3>
+                                <p>
+                                    Ela permite acompanhar a evolução das culturas, registrar tarefas diárias, organizar escalas de rega e consultar guias detalhados de orientações hortícolas.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="sobre-card">
+                            <div class="sobre-icon">
+                                <i data-lucide="sparkles"></i>
+                            </div>
+                            <div class="sobre-info">
+                                <h3>Tecnologia, Educação & Sustentabilidade</h3>
+                                <p>
+                                    Aproximamos a cultura digital do ecossistema escolar, incentivando a conscientização ambiental e o trabalho em equipe dentro e fora da sala de aula.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="problema-section section-padding" id="problema">
+            <div class="container">
+                <div class="section-header center">
+                    <span class="section-subtitle">Desafios Encontrados</span>
+                    <h2 class="section-title">Quais problemas resolvemos?</h2>
+                    <p class="section-description">
+                        Identificamos os principais obstáculos enfrentados pelas instituições de ensino na gestão de hortas pedagógicas.
+                    </p>
+                </div>
+
+                <div class="problema-grid">
+                    <div class="problema-card">
+                        <div class="problema-card-icon red">
+                            <i data-lucide="file-warning"></i>
+                        </div>
+                        <h3>Informações Espalhadas</h3>
+                        <p>Falta de um repositório centralizado de conhecimentos sobre as plantas cultivadas, épocas de colheita e cuidados específicos.</p>
+                    </div>
+
+                    <div class="problema-card">
+                        <div class="problema-card-icon amber">
+                            <i data-lucide="calendar-off"></i>
+                        </div>
+                        <h3>Desorganização do Plantio</h3>
+                        <p>Dificuldade para mapear as épocas corretas de semeadura e plantio, resultando em perda de sementes e safras.</p>
+                    </div>
+
+                    <div class="problema-card">
+                        <div class="problema-card-icon orange">
+                            <i data-lucide="eye-off"></i>
+                        </div>
+                        <h3>Falta de Acompanhamento</h3>
+                        <p>Sem um registro contínuo, fica difícil monitorar a velocidade de crescimento e a saúde do desenvolvimento das culturas.</p>
+                    </div>
+
+                    <div class="problema-card">
+                        <div class="problema-card-icon blue">
+                            <i data-lucide="history"></i>
+                        </div>
+                        <h3>Ausência de Histórico</h3>
+                        <p>Quando turmas mudam de ano, o conhecimento acumulado se perde sem um histórico documentado dos ciclos anteriores.</p>
+                    </div>
+
+                    <div class="problema-card">
+                        <div class="problema-card-icon purple">
+                            <i data-lucide="users-round"></i>
+                        </div>
+                        <h3>Escalas de Tarefas Confusas</h3>
+                        <p>Dificuldade em organizar quem deve regar, adubar ou cuidar da plantação a cada dia da semana entre os estudantes.</p>
+                    </div>
+
+                    <div class="problema-card">
+                        <div class="problema-card-icon teal">
+                            <i data-lucide="book-open-check"></i>
+                        </div>
+                        <h3>Subaproveitamento Pedagógico</h3>
+                        <p>A plantação deixa de ser usada em todo seu potencial como laboratório vivo para aulas de Ciências, Matemática e Geografia.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="solucao-section section-padding" id="solucao">
+            <div class="container">
+                <div class="section-header center">
+                    <span class="section-subtitle">Nossa Proposta Digital</span>
+                    <h2 class="section-title">A Solução CultivaTech</h2>
+                    <p class="section-description">
+                        Uma plataforma 100% web que centraliza dados, organiza o trabalho coletivo e transforma a horta escolar em um fluxo contínuo de aprendizado.
+                    </p>
+                </div>
+
+                <div class="solucao-workflow-container">
+                    <h3 class="workflow-title">Fluxo de Trabalho da Plataforma</h3>
+
+                    <div class="solucao-steps">
+                        <div class="step-card">
+                            <div class="step-badge">01</div>
+                            <div class="step-icon">
+                                <i data-lucide="map"></i>
+                            </div>
+                            <h4 class="step-name">PLANEJAR</h4>
+                            <p class="step-desc">Selecione as culturas ideais para a estação e organize o calendário escolar de plantio.</p>
+                        </div>
+
+                        <div class="step-connector">
+                            <i data-lucide="chevron-right"></i>
+                        </div>
+
+                        <div class="step-card">
+                            <div class="step-badge">02</div>
+                            <div class="step-icon">
+                                <i data-lucide="sprout"></i>
+                            </div>
+                            <h4 class="step-name">PLANTAR</h4>
+                            <p class="step-desc">Cadastre canteiros, distribuição de sementes e atribua tarefas para cada turma.</p>
+                        </div>
+
+                        <div class="step-connector">
+                            <i data-lucide="chevron-right"></i>
+                        </div>
+
+                        <div class="step-card">
+                            <div class="step-badge">03</div>
+                            <div class="step-icon">
+                                <i data-lucide="droplets"></i>
+                            </div>
+                            <h4 class="step-name">ACOMPANHAR</h4>
+                            <p class="step-desc">Gerencie escalas de irrigação, adubação e manutenção das mudas em tempo real.</p>
+                        </div>
+
+                        <div class="step-connector">
+                            <i data-lucide="chevron-right"></i>
+                        </div>
+
+                        <div class="step-card">
+                            <div class="step-badge">04</div>
+                            <div class="step-icon">
+                                <i data-lucide="notebook-pen"></i>
+                            </div>
+                            <h4 class="step-name">REGISTRAR</h4>
+                            <p class="step-desc">Documente o crescimento com fotos, notas de campo e diários de bordo digitais.</p>
+                        </div>
+
+                        <div class="step-connector">
+                            <i data-lucide="chevron-right"></i>
+                        </div>
+
+                        <div class="step-card highlight">
+                            <div class="step-badge">05</div>
+                            <div class="step-icon">
+                                <i data-lucide="award"></i>
+                            </div>
+                            <h4 class="step-name">APRENDER</h4>
+                            <p class="step-desc">Analise os resultados obtidos, colha os frutos e correlacione dados com as disciplinas curriculares.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="solucao-banner">
+                    <div class="solucao-banner-content">
+                        <h3>Prático, Realista e Sem Complicações Físicas</h3>
+                        <p>
+                            Por ser uma plataforma web interativa, o CultivaTech não exige infraestruturas caras ou sensores complexos. É a solução perfeita para qualquer escola pública ou privada começar a digitalizar seu projeto verde hoje mesmo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="funcionalidades" class="dev-placeholder" style="display:none;"></div>
+        <div id="publico-alvo" class="dev-placeholder" style="display:none;"></div>
+        <div id="equipe" class="dev-placeholder" style="display:none;"></div>
+        <div id="tecnologias" class="dev-placeholder" style="display:none;"></div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#inicio" class="logo logo-footer">
+                        <i data-lucide="sprout" class="logo-icon"></i>
+                        <span class="logo-text">Cultiva<span class="logo-accent">Tech</span></span>
+                    </a>
+                    <p class="footer-slogan">"Cultivando conhecimento."</p>
+                    <p class="footer-desc">
+                        Plataforma 100% digital criada para planejar, organizar e acompanhar o desenvolvimento de hortas pedagógicas escolares.
+                    </p>
+                </div>
+
+                <div class="footer-links-group">
+                    <div class="footer-column">
+                        <h4 class="footer-title">Navegação</h4>
+                        <ul class="footer-links">
+                            <li><a href="#inicio">Início</a></li>
+                            <li><a href="#sobre">Sobre o Projeto</a></li>
+                            <li><a href="#problema">Problema</a></li>
+                            <li><a href="#solucao">Solução</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4 class="footer-title">Projeto</h4>
+                        <ul class="footer-links">
+                            <li><a href="#funcionalidades">Funcionalidades</a></li>
+                            <li><a href="#publico-alvo">Público-alvo</a></li>
+                            <li><a href="#equipe">Equipe</a></li>
+                            <li><a href="#tecnologias">Tecnologias</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4 class="footer-title">Contato & Redes</h4>
+                        <ul class="footer-links">
+                            <li>
+                                <a href="https://wa.me/5519971322297" target="_blank" rel="noopener noreferrer" class="footer-contact-link">
+                                    <i data-lucide="phone" class="icon-phone"></i>
+                                    <span>19 97132-2297</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://wa.me/5519989866460" target="_blank" rel="noopener noreferrer" class="footer-contact-link">
+                                    <i data-lucide="phone" class="icon-phone"></i>
+                                    <span>19 98986-6460</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com/_firmoo" target="_blank" rel="noopener noreferrer" class="footer-contact-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                                    <span>@_firmoo</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com/mt.silva_08" target="_blank" rel="noopener noreferrer" class="footer-contact-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                                    <span>@mt.silva_08</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4 class="footer-title">Repositório</h4>
+                        <ul class="footer-links">
+                            <li>
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="github-link">
+                                    <i data-lucide="github"></i>
+                                    <span>Ver no GitHub</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 CultivaTech</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
