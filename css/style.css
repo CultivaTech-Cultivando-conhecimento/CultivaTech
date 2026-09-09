@@ -1072,6 +1072,104 @@ img {
     color: var(--gray-600);
 }
 
+/* ==========================================================================
+   Seção CTA
+   ========================================================================== */
+.cta-section {
+    background-color: var(--white);
+}
+.cta-card {
+    background: linear-gradient(135deg, var(--primary-dark) 0%, #2E7D32 100%);
+    border-radius: var(--radius-lg);
+    padding: 4.5rem 3rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+}
+.cta-shapes .cta-shape {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(70px);
+    z-index: 0;
+    pointer-events: none;
+}
+.shape-cta-1 {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(102, 187, 106, 0.35);
+    top: -60px;
+    right: -40px;
+}
+.shape-cta-2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(249, 168, 37, 0.25);
+    bottom: -50px;
+    left: -30px;
+}
+.cta-content {
+    position: relative;
+    z-index: 1;
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cta-badge {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.25);
+    color: var(--white);
+    margin-bottom: 1.5rem;
+}
+.cta-badge .badge-icon {
+    color: var(--primary-light);
+}
+.cta-title {
+    font-family: var(--font-heading);
+    font-size: 2.35rem;
+    font-weight: 800;
+    color: var(--white);
+    line-height: 1.25;
+    margin-bottom: 1.25rem;
+}
+.cta-text {
+    font-size: 1.15rem;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.6;
+    margin-bottom: 2.25rem;
+}
+.cta-buttons {
+    display: flex;
+    gap: 1.25rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.btn-cta-primary {
+    background-color: var(--white);
+    color: var(--primary-dark);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+.btn-cta-primary:hover {
+    background-color: var(--bg-light);
+    color: var(--primary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+.btn-cta-secondary {
+    background-color: rgba(255, 255, 255, 0.12);
+    color: var(--white);
+    border-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(6px);
+}
+.btn-cta-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.22);
+    border-color: var(--white);
+    color: var(--white);
+    transform: translateY(-2px);
+}
+
 .footer {
     background-color: #111A11;
     color: #9CA3AF;
