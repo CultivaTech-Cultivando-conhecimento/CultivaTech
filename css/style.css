@@ -772,7 +772,7 @@ img {
 }
 .funcionalidades-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
 }
 .funcionalidade-card {
@@ -1266,6 +1266,18 @@ img {
         transform: rotate(90deg);
         margin: 0 auto;
     }
+    .timeline-steps {
+        gap: 1rem;
+    }
+    .timeline-content {
+        padding: 1.25rem 0.75rem;
+    }
+    .timeline-title {
+        font-size: 1rem;
+    }
+    .timeline-desc {
+        font-size: 0.825rem;
+    }
 }
 @media (max-width: 768px) {
     .section-padding {
@@ -1389,6 +1401,18 @@ img {
     .timeline-content {
         flex: 1;
     }
+    .cta-card {
+        padding: 3.5rem 2rem;
+    }
+    .cta-title {
+        font-size: 1.85rem;
+    }
+    .cta-text {
+        font-size: 1.05rem;
+    }
+    .equipe-card {
+        padding: 2rem 1.5rem;
+    }
 }
 @media (max-width: 480px) {
     .hero-title {
@@ -1403,6 +1427,22 @@ img {
     .problema-grid {
         grid-template-columns: 1fr;
     }
+    .publico-grid {
+        grid-template-columns: 1fr;
+    }
+    .funcionalidades-grid {
+        grid-template-columns: 1fr;
+    }
+    .tech-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    .tech-card {
+        padding: 1.5rem 0.75rem;
+    }
+    .equipe-grid {
+        grid-template-columns: 1fr;
+    }
     .timeline-step {
         flex-direction: column;
         align-items: center;
@@ -1411,5 +1451,32 @@ img {
     }
     .timeline-marker {
         margin-bottom: 0.5rem;
+    }
+    .cta-card {
+        padding: 2.5rem 1.25rem;
+    }
+    .cta-title {
+        font-size: 1.5rem;
+    }
+    .cta-text {
+        font-size: 0.95rem;
+        margin-bottom: 1.75rem;
+    }
+    .cta-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+    .cta-buttons .btn {
+        width: 100%;
+    }
+}
+@media (max-width: 360px) {
+    .tech-grid {
+        grid-template-columns: 1fr;
+    }
+    .publico-card,
+    .funcionalidade-card,
+    .equipe-card {
+        padding: 1.75rem 1.25rem;
     }
 }
