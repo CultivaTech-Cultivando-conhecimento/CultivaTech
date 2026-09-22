@@ -123,7 +123,7 @@ O logotipo é constituído pelo elemento vetorial **Sprout** (broto germinando) 
 
 Acesse a demonstração online da Landing Page do CultivaTech:
 
-🔗 **Landing Page:** [https://m-firmo.github.io/CultivaTech/](https://m-firmo.github.io/CultivaTech/)  
+🔗 **Landing Page:** [https://cultivatech-cultivando-conhecimento.github.io/CultivaTech/](https://cultivatech-cultivando-conhecimento.github.io/CultivaTech/)  
 📦 **Repositório GitHub:** [https://github.com/M-firmo/CultivaTech](https://github.com/M-firmo/CultivaTech)
 
 ---
